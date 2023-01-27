@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Championship-Internal-Front/1.0.0": {
+        "runtime": {
+          "Championship-Internal-Front.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Championship-Internal-Front/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

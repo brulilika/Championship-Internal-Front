@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{CC7D74B1-5043-46E1-B9DA-F1FFAA5AC01E}|Default">
+  <MonoDevelop.Ide.ItemProperties.Championship-Internal-Front PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Championship-Internal-Front PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Pages/_ViewImports.cshtml" />
-      <File FileName="Pages/Shared/_Layout.cshtml" />
-      <File FileName="Pages/Index.cshtml" Line="13" Column="1" />
-      <File FileName="Program.cs" />
+      <File FileName="Pages/_ViewImports.cshtml" Line="4" Column="53" />
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="22" Column="46" />
+      <File FileName="Pages/Index.cshtml" Line="551" Column="27" />
+      <File FileName="Program.cs" Line="22" Column="1" />
+      <File FileName="Pages/Privacy.cshtml" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,4 +27,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -12,11 +12,17 @@
     <None Remove="Syncfusion.EJ" />
     <None Remove="Newtonsoft.Json" />
     <None Remove="Syncfusion.Licensing" />
+    <None Remove="Models\" />
+    <None Remove="Models\Request\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="20.4.0.44" />
     <PackageReference Include="Syncfusion.EJ" Version="20.4.0.44" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Syncfusion.Licensing" Version="20.4.0.44" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\Request\" />
   </ItemGroup>
 </Project>

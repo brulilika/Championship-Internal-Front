@@ -1,26 +1,18 @@
 ﻿<Properties StartupConfiguration="{CC7D74B1-5043-46E1-B9DA-F1FFAA5AC01E}|Default">
-  <MonoDevelop.Ide.ItemProperties.Championship-Internal-Front PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ChampionshipController.cs">
     <Files>
-      <File FileName="Pages/_ViewImports.cshtml" Line="4" Column="53" />
-      <File FileName="Pages/Shared/_Layout.cshtml" Line="22" Column="46" />
-      <File FileName="Pages/Index.cshtml" Line="551" Column="27" />
-      <File FileName="Program.cs" Line="22" Column="1" />
-      <File FileName="Pages/Privacy.cshtml" Line="9" Column="1" />
+      <File FileName="Controllers/RefereeController.cs" />
+      <File FileName="Controllers/BaseRequest.cs" />
+      <File FileName="Controllers/ChampionshipController.cs" Line="36" Column="75" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Championship-Internal-Front" expanded="True">
             <Node name="Championship-Internal-Front" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,5 +22,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Championship-Internal-Front PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

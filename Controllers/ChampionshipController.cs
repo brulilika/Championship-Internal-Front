@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Championship_Internal_Front.Models;
 using Championship_Internal_Front.Models.Request;
+using Championship_Internal_Front.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Syncfusion.JavaScript.DataVisualization.Models.Diagram;
@@ -17,16 +18,11 @@ namespace Championship_Internal_Front.Controllers
     public class ChampionshipController : Controller
     {
         HttpClient client;
-        String baseUrl = Environment.GetEnvironmentVariable("BASEURL");
 
         public ChampionshipController(IHttpClientFactory factory)
         {
             client = factory.CreateClient();
-            client.BaseAddress = new Uri(baseUrl);
-            client.DefaultRequestHeaders.Accept.Add(new
-                MediaTypeWithQualityHeaderValue("application/json"));
-            client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Bearer", "Your Oauth token");
+            client = BaseRequest.CreateBaseRequest(client);
         }
 
         /// <summary>

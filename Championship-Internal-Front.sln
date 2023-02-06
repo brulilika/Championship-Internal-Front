@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.2
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Championship-Internal-Front", "Championship-Internal-Front.csproj", "{CC7D74B1-5043-46E1-B9DA-F1FFAA5AC01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Championship-Internal-Front", "Championship-Internal-Front.csproj", "{CC7D74B1-5043-46E1-B9DA-F1FFAA5AC01E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
